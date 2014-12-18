@@ -1,0 +1,15 @@
+id: EachSlice
+name: EachSlice
+description: <__trans phrase="Split any template loop to each N slices.">
+version: 0.1.0
+
+tags:
+    block:
+        EachSlice: $EachSlice::MT::EachSlice::Tags::_tag_EachSlice
+        EachSliceHeader: $EachSlice::MT::EachSlice::Tags::_tag_EachSliceHeader
+        EachSliceBody: $EachSlice::MT::EachSlice::Tags::_tag_EachSliceBody
+        EachSliceFooter: $EachSlice::MT::EachSlice::Tags::_tag_EachSliceFooter
+
+l10_lexicon:
+    ja:
+        "Split any template loop to each N slices.": "任意のテンプレートループをN回ずつに分割します。"
